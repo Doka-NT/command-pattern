@@ -1,0 +1,22 @@
+{
+  "name": "skobka/command-pattern",
+  "description": "The usefull set of interface to interact with command design pattern",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Soshnikov Artem",
+      "email": "213036@skobka.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "skobka\\CommandPattern\\": "src"
+    }
+  },
+  "require": {},
+  "require-dev": {
+    "phpunit/phpunit": "^7.4@dev"
+  }
+}
